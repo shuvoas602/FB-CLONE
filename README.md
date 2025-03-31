@@ -14,11 +14,13 @@ This tool is designed for ethical hacking and security research. It generates ra
 1. Install Termux from the Play Store (if not already installed).
 2. Update and install required dependencies:
    ```bash
-   apt update && apt upgrade -y
-   apt install python git -y
+   pkg update && apt upgrade -y
+   pkg install git -y
+   pkg install python -y
+   pkg install python3 -y
    git clone https://github.com/shuvoas602/FB-CLONE.git
    cd FB-CLONE
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    python3 CLONE.py
    ```
 
