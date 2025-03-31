@@ -20,6 +20,7 @@ This tool is designed for ethical hacking and security research. It generates ra
    pkg install python3 -y
    git clone https://github.com/shuvoas602/FB-CLONE.git
    cd FB-CLONE
+   chmod +x *
    pip3 install -r requirements.txt
    python3 CLONE.py
    ```
